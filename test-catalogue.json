@@ -1,0 +1,27 @@
+[
+            {
+                "@id": "psdiCatalogue:pf6_res/ccpncfrontend",
+                "dcterms:title":"Front-end for Collaborative Computational Project for NMR Crystallography (CCP-NC) Magres database",
+                "rdfs:label":"CCP-NC Magres database front-end",
+                "dcterms:type":"dcat:DataService",
+                "dcterms:endpointDescription":"Web front end to access the Collaborative Computational Project for NMR Crystallography (CCP-NC) MAGRES database, to search it for MAGRES files by DOI, Magnetic shielding, Electric Field Gradient Vzz, Chemical name, Form, Unit cell formula, Molecular formula, MRD reference number, External database reference or License or to deposit MAGRES files.",
+                "dcat:endpointURL": "https://www.ccpnc.ac.uk/database/",
+                "dcat:servesDataset": "psdiCatalogue:pf6_res/ccpncdata"
+            },
+            {
+                "@id": "psdiCatalogue:pf6_res/magresview",  
+                "dcterms:title":"MagresView",
+                "rdfs:label":"CCP-NC MagresView",
+                "dcterms:description":"MagresView embedded in web front end for the Collaborative Computational Project for NMR Crystallography (CCP-NC). Crystal structure and NMR tensor visualisation from .magres files.  SSNMR parameters like magnetic shielding and electric field gradient can be visually represented as scaled ellipsoids super-imposed on the crystal structure for visualisation.",
+                "dcterms:type":"dcat:DataService",
+                "dcterms:creator": {
+                    "@type":"foaf:Person",
+                    "foaf:name":"John Kane Shenton",
+                    "foaf:openid":"https://orcid.org/0000-0003-4485-3446"
+                },
+                "dcat:version": "1.6",
+                "dcat:endpointURL": "https://www.ccpnc.ac.uk/magresview/magresview/magres_view.html",
+                "dcat:servesDataset":"psdiCatalogue:pf6_res/ccpncdata"
+            }
+            ]
+ 
