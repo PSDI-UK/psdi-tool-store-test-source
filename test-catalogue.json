@@ -22,6 +22,19 @@
                 "dcat:version": "1.6",
                 "dcat:endpointURL": "https://www.ccpnc.ac.uk/magresview/magresview/magres_view.html",
                 "dcat:servesDataset":"psdiCatalogue:pf6_res/ccpncdata"
+            },
+            {
+                "dcterms:title":"Test tool in catalogue",
+                "rdfs:label":"Test-catalogue-tool",
+                "dcterms:description":"This is a placeholder entry while the PSDI Tool Store is under development. This is not a real thing, and I am typing here just to fill up space in the description field blah blah blah blah-blah.",
+                "dcterms:type":"dcat:DataService",
+                "dcterms:creator": {
+                    "@type":"foaf:Person",
+                    "foaf:name":"Tom L Underwood",
+                    "foaf:openid":"https://orcid.org/0000-0001-6431-0612"
+                },
+                "dcat:version": "0.0.1",
+                "dcat:endpointURL": "https://github.com/PSDI-UK/psdi-tool-store-test-source"
             }
-            ]
+]
  
