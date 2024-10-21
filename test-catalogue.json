@@ -4,7 +4,7 @@
                 "dcterms:title":"Front-end for Collaborative Computational Project for NMR Crystallography (CCP-NC) Magres database",
                 "rdfs:label":"CCP-NC Magres database front-end",
                 "dcterms:type":"dcat:DataService",
-                "dcterms:endpointDescription":"Web front end to access the Collaborative Computational Project for NMR Crystallography (CCP-NC) MAGRES database, to search it for MAGRES files by DOI, Magnetic shielding, Electric Field Gradient Vzz, Chemical name, Form, Unit cell formula, Molecular formula, MRD reference number, External database reference or License or to deposit MAGRES files.",
+                "dcterms:endpointDescription":"Web  front end to access the Collaborative Computational Project for NMR Crystallography (CCP-NC) MAGRES database, to search it for MAGRES files by DOI, Magnetic shielding, Electric Field Gradient Vzz, Chemical name, Form, Unit cell formula, Molecular formula, MRD reference number, External database reference or License or to deposit MAGRES files.",
                 "dcat:endpointURL": "https://www.ccpnc.ac.uk/database/",
                 "dcat:servesDataset": "psdiCatalogue:pf6_res/ccpncdata"
             },
